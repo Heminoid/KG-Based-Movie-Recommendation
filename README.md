@@ -1,6 +1,8 @@
 # Knowledge-Graph-Based-Movie-Recommendation-System
 This repository contains a comprehensive implementation of a Movie Recommendation System using a Knowledge Graph. The system leverages various algorithms and techniques, providing personalized recommendations based on user preferences and movie attributes.
 
+![napkin-selection](https://github.com/user-attachments/assets/47d69fb8-b82b-428a-aeb0-f386f8be9d5c)
+
 ## Overview
 This repository implements a sophisticated Movie Recommendation System using a Knowledge Graph (Neo4j), LangChain, and a Large Language Model (LLM). It provides an interactive interface for users to get personalized movie recommendations and query the system using natural language.
 
@@ -29,15 +31,14 @@ To run this project, ensure you have the following:
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/movie-recommendation-system.git
-   cd movie-recommendation-system
+   git clone https://github.com/Heminoid/KG-Based-Movie-Recommendation.git
+   cd KG-Based-Movie-Recommendation
    ```
 2. Install the required libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
+    -Included in the Notebook itself.
+   
 3. Set up Neo4j:
-   - Install Neo4j Desktop or Community Edition.
+   - Install Neo4j Desktop/Community Edition or access it via Neo4j Cloud Interface.
    - Create a database and obtain the connection URI, username, and password.
 
 ## How to Use
@@ -57,9 +58,8 @@ To run this project, ensure you have the following:
 ## File Structure
 ```
 .
-├── data/                       # Dataset folder (includes imdb_top_1000.csv)
+├── imdb_top_1000.csv           # Dataset file (includes imdb_top_1000.csv)
 ├── Movie_recommendation.ipynb  # Main Jupyter Notebook for implementation
-├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
 ```
 
@@ -80,10 +80,14 @@ Contributions are welcome! Please fork the repository, make your changes, and su
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+### System Demo
+
+https://github.com/user-attachments/assets/5eda5de4-0898-4a0d-9890-5d7b9002a372
+
 ---
 
 ## Contact
 For any queries or feedback, please contact:
 - **Name**: Himadri
 - **Email**: himadri.roni@gmail.com
-- **GitHub**: [yourusername](https://github.com/Heminoid)
+- **GitHub**: [Heminoid](https://github.com/Heminoid)
